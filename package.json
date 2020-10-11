@@ -1,0 +1,34 @@
+{
+	"name": "react-crud-app",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"axios": "^0.19.2",
+		"gh-pages": "^2.1.1",
+		"react": "^16.9.0",
+		"react-bootstrap": "^1.0.1",
+		"react-dom": "^16.9.0",
+		"react-scripts": "^3.1.1"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
+	},
+	"eslintConfig": {
+		"extends": "react-crud-app"
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 11",
+		"not op_mini all"
+	],
+	"homepage": "https://bwiessneth.github.io/react_crud_app",
+	"devDependencies": {
+		"prettier": "2.1.2"
+	}
+}
